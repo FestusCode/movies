@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Nav from "./Nav"
 import Banner from './Banner'
+import Cards from './Cards'
+import Footer from './Footer'
 
 export default class Home extends Component {
   render() {
@@ -8,6 +10,8 @@ export default class Home extends Component {
       <div>
         <Nav/>
         <Banner/>
+        <Cards/>
+        <Footer/>
       </div>
     )
   }

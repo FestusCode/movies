@@ -6,7 +6,7 @@ export default class Banner extends Component {
   render() {
     return (
       <div>
-      <section>
+      <section id='banner_section'>
             <h1>which movie are you looking for?</h1>
             <div id="search_input">
                 <img src={searchIcon} alt="search icon" id='searchIcon' />

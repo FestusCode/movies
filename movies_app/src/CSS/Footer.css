@@ -1,0 +1,17 @@
+Footer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #f1f1f1;
+    color:#3d3d3d;
+    align-items: center;
+}
+Footer ul{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+li{
+    list-style-type: none;
+}
