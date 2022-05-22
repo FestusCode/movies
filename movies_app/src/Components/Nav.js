@@ -1,19 +1,20 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import '../CSS/Nav.css'
 
-export default class Nav extends Component {
-  render() {
-    return (
-     <nav>
-         <img src="" alt="logo" />
-         <ul>
-             <li>Home</li>
-             <li>Music</li>
-             <li>Movies</li>
-             <li>A bout us</li>
-         </ul>
-         
-     </nav>
-    )
-  }
+class Nav extends Component {
+    render() {
+        return (
+            <div  className='nav_container'>
+            <nav>
+                <h1>HOOKED</h1>
+                <div className="search_contener">
+                    <input type="search" name="search_input" id="search_input" placeholder='Search...' />
+                    <button>SEARCH</button>
+                </div>
+                </nav>
+                </div>
+        )
+    }
 }
+
+export default Nav;

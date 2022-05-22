@@ -1,13 +1,13 @@
-Footer{
+footer{
     display: flex;
     justify-content: space-around;
     font-size: 24px;
     font-weight: 700;
-    background-color: #f1f1f1;
-    color:#3d3d3d;
+    background-color: rgb(5, 5, 24);
+    color: rgb(159, 188, 214);
     align-items: center;
 }
-Footer ul{
+footer ul{
     display: flex;
     width: 70%;
     justify-content: space-around;

@@ -4,15 +4,16 @@ import '../CSS/Footer.css'
 export default class Footer extends Component {
   render() {
     return (
-      <Footer>
-          <img src="" alt="logo" />
+     <footer>
+         <h1>HOOKED</h1>
          <ul>
              <li>Home</li>
              <li>Music</li>
-             <li>Movies</li>    
+             <li>Movies</li>
              <li>A bout us</li>
          </ul>
-      </Footer>
+         
+     </footer>
     )
   }
 }
